@@ -1,0 +1,92 @@
+@import "reset.less";  //重置默认样式，统一各个浏览器
+html,body{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: #333;
+}
+*{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.vue-datepicker * {
+  box-sizing: content-box;
+}
+a{
+  color: #333;
+}
+table{
+  font-size: 12px;
+}
+.require:before{           //必填项
+  content: "*";
+  color: #c00;
+}
+//vue加载前{{}}隐藏
+[v-cloak]{
+  display: none;
+}
+//浮动
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+input{
+  border: 1px solid #c0c0c0;
+  height: 20px;
+  padding-left: 5px;
+}
+textarea{
+  word-break: break-all;
+  line-height: 16px;
+  padding: 5px;
+}
+div.error input{
+  border-color: #f40;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #999;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {   /* Mozilla Firefox 4 to 18 */
+  color:#999;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {   /* Mozilla Firefox 19+ */
+  color:#999;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {   /* IE 10+ */
+  color:#999;
+}
+input:disabled{
+  background-color: #ebebeb;
+}
+.disabled{
+  background-color: #ebebeb;
+}
+//透明遮罩
+.opa{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.2);
+  z-index: 9;
+}
+// 由于统一设置了 box-sizing盒子模型，导致element-ui中部分样式有问题
+// 因此把element-ui中需要的手动设置一下
+// 穿梭框
+.el-transfer-panel__body {box-sizing: content-box}
+.el-transfer__buttons .el-button+.el-button{margin-left: 0}
+.el-table table{border-collapse: separate;}
+
+.omit{
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
