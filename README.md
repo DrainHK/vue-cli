@@ -1,5 +1,5 @@
 # vue-cli
-A customized vue-cli include vue-router and vuex which is based on webpack and gulp.
+A customized vue-cli include vue-router, vuex and axios which is packed by webpack and gulp.
 
 The directory structure, as follows.
 
@@ -25,11 +25,12 @@ The directory structure, as follows.
 
 ```
 
-###########部署步骤
-1. 安装配置文件  
-
+###########Deploy Steps
+- install all dependent files
+```
     npm i
-2. 运行项目（本地环境） 
-
+```
+- run this project 
+```
     npm run dev
-
+```
