@@ -36,9 +36,9 @@ module.exports = {
         port: 80,
         disableHostCheck: true,
         proxy: {
-            '/liudao-main/a': {         //出接口后修改
-                target: 'http://test.keyil.cn',
-                changeOrigin: true                       //本地虚拟一个服务端接收请求并发送该请求
+            '/test/test1': {                        //需要转换的路径
+                target: 'http://test.target.cn',    //要转换到的目标地址
+                changeOrigin: true                  //本地虚拟一个服务端接收请求并发送该请求
             }
         }
     }
