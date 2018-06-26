@@ -25,12 +25,18 @@ The directory structure, as follows.
 
 ```
 
-###########Deploy Steps
-- install all dependent files
+## How to use
+- First, clone the project.
+```bash
+$ git clone https://github.com/DrainHK/vue-cli.git
 ```
-    npm i
+
+- Then, install the dependencies locally files.
+```bash
+$ cd vue-cli
+$ npm install
 ```
-- run this project 
-```
-    npm run dev
+- Finally, run this project. 
+```bash
+$ npm run dev
 ```
