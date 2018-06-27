@@ -5,7 +5,7 @@ import Vue from 'vue'
 import axios from 'axios'
 const vm = new Vue();
 const origin = window.location.origin;
-const configPath = '';       //接口路径
+const configPath = '';       //接口路径，根据己方后端人员定义的接口配置路径
 
 let _ajax = function(options){
     let method = options.type || 'post';        //默认为post请求
