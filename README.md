@@ -1,5 +1,5 @@
 # vue-cli
-A customized vue-cli include vue-router, vuex and axios which is packed by webpack and gulp.
+A customized frame apply to vue single page application.
 
 The directory structure, as follows.
 
