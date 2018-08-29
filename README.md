@@ -12,11 +12,14 @@ The directory structure, as follows.
     |—— components              页面组件目录
     |—— routes                  vue路由配置
     |—— store                   vuex配置
-    |—— util                    Ajax，公共方法，element组件
-    |—— views                   主页面
-    |—— app.vue                 Vue实例入口
+    |—— util                    公共方法目录（包含ajax和element组件）
+    |—— views                   vue主页面
+    |—— app.vue                 vue实例入口
     |—— main.js                 页面入口JS文件
 ├── static                      样式，图标，图片等静态资源
+    |—— css                     css静态文件
+    |—— iconfont                阿里iconfont文件
+    |—— images                  图片文件
 |—— .babelrc                    babel的配置文件
 |—— gulpfile.js                 gulp配置文件
 |—— index.html                  入口页面
