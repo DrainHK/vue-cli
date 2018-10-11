@@ -36,7 +36,7 @@ $ git clone https://github.com/DrainHK/vue-cli.git
 
 - Then, install the dependencies locally files.
 ```bash
-$ cd vue-cli
+$ cd vue_project
 $ npm install
 ```
 - Finally, run this project. 
