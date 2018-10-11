@@ -1,4 +1,4 @@
-# vue-cli
+# project for vue
 A customized frame apply to vue single page application.
 
 The directory structure, as follows.
