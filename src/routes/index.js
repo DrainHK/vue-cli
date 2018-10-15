@@ -22,6 +22,7 @@ const router = new VueRouter({
                    path: '/main',
                    component: () => import(/* webpackChunkName: "index" */ "../views/main.vue")
                }
+               //follow parts have been remove, you can add your routes here
            ]
        },
        {path: '*', redirect: '/login'}
